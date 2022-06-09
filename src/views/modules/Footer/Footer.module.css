@@ -1,0 +1,15 @@
+.footerRoot {
+  background-color: #eee;
+  height: 64px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerRoot p {
+  color: #4d4d4d;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
