@@ -2,6 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+  direction: rtl;
 }
 
 a {
@@ -15,5 +16,5 @@ a {
 }
 
 :root {
-  --primary-color: #673AB7
+  --primary-color: #673ab7;
 }
