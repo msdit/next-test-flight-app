@@ -1,0 +1,36 @@
+.selectRoot {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.selectInput {
+  flex-shrink: 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  height: 48px;
+  padding: 0 16px;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.selectList {
+  flex-grow: 1;
+  overflow-y: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.selectItem {
+  list-style: none;
+  padding: 8px 16px;
+  margin: 0 16px;
+  border-bottom: 1px solid #e0e0e0;
+  cursor: pointer;
+  transition: all linear 300ms;
+}
+.selectItem:hover {
+  background-color: #e0e0e0;
+  border-radius: 5px;
+}

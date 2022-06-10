@@ -1,0 +1,54 @@
+.flightCardRoot {
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  margin: 16px;
+  padding: 16px;
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  width: calc(100% - 32px);
+}
+
+.flightCardIndicator {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.flightCardDetailsWrapper {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.flightCardDetails {
+  flex-grow: 1;
+  padding: 8px 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.flightCardDetails p {
+  margin: 4px;
+}
+
+.flightCardStatus {
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flightCardStatus p {
+  margin: 4px;
+  border-radius: 5px;
+  padding: 4px 8px;
+  line-hight: 1rem;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: var(--primary-color);
+}
