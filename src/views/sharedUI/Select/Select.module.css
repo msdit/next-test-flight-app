@@ -29,6 +29,10 @@
   border-bottom: 1px solid #e0e0e0;
   cursor: pointer;
   transition: all linear 300ms;
+  display: flex;
+  direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 .selectItem:hover {
   background-color: #e0e0e0;

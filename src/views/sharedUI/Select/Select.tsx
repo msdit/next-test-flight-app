@@ -1,4 +1,6 @@
+import Link from "next/link";
 import { FC, useEffect, useState } from "react";
+import Button from "../Button";
 import Styles from "./Select.module.css";
 
 interface ISelectProps {
@@ -47,6 +49,15 @@ const Select: FC<ISelectProps> = (props) => {
             onClick={() => onChange(el.value)}
           >
             {el.label}
+            <Link href={`/a/${el.value}`}>
+              <Button
+                onClick={(e) => {
+                  e.stopPropagation();
+                }}
+              >
+                اطلاعات بیشتر
+              </Button>
+            </Link>
           </li>
         ))}
       </ul>

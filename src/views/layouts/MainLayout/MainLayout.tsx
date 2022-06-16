@@ -1,5 +1,5 @@
 import type { FC, ReactNode } from "react";
-import Header from "@/mod/Header/Header";
+import Header from "@/mod/Header";
 import Footer from "@/mod/Footer";
 import Styles from "./MainLayout.module.css";
 

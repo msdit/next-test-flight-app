@@ -19,13 +19,7 @@ const HomeTemplate: FC = () => {
     dispatch(getList());
   }, []);
 
-  console.log(
-    airportList,
-    airportList.map((el: any) => ({
-      value: el.domainCode,
-      label: el.name,
-    }))
-  );
+  console.log(airportList);
 
   return (
     <div className={Styles.homeTemplateRoot}>

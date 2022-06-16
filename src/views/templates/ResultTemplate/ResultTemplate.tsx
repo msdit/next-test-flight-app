@@ -6,7 +6,7 @@ import Styles from "./ResultTemplate.module.css";
 const ResultTemplate: FC = () => {
   const router = useRouter();
   const { query } = router;
-
+  
   return (
     <div className={Styles.resultTemplateRoot}>
       {query.airport}

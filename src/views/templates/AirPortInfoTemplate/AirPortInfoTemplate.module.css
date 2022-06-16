@@ -1,0 +1,12 @@
+.form {
+  width: 80%;
+  max-width: 250px;
+  margin: 32px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.form > * {
+  margin-bottom: 16px;
+}
